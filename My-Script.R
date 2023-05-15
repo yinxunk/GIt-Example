@@ -11,4 +11,7 @@ our_data %>%
   )
 ) + 
   geom_point() + 
-  theme_classic()
+  theme_classic() + 
+  labs(
+    x = "cylinder"
+  )
